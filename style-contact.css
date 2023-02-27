@@ -1,0 +1,71 @@
+
+main{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:100%;
+    filter: sepia(0.5);
+    width: 85%;
+    border-radius: 15px;
+}
+form{
+    
+    width: 40%;
+    margin: 2% auto;
+
+    text-align: center;
+    padding: 2em;
+    
+}
+input, textarea{
+    display: block;
+    width: 90%;
+    margin-bottom: 1em;
+    padding: 1.2em 1em;
+    border-radius: 10px;
+    filter: opacity(0.5);
+    resize: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+input:hover{
+    filter: opacity(0.8);
+    border-color: #ccc;
+    
+    transform: scale(102%);
+}
+textarea:hover{
+    filter: opacity(0.8);
+    transform: scale(102%);
+    border-color: #ccc;  
+}
+
+
+label{
+    
+    font:bold 1.2em Arial;
+    
+    
+}
+::placeholder{
+    color: #0A3871;
+}
+textarea:focus{
+    outline:  none;
+}
+input:focus{
+    outline: none;
+}
+button{
+    padding: 1em 2em;
+    font: bold 1.5em Arial;
+    background-color:cadetblue;
+    border: none;
+    border-radius: 12px;
+    color: #0A3871;
+    transition: all .2s ease-in;
+}
+button:hover{
+    color:#fff;
+    background-color: #0A3871;
+    
+}
