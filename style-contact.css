@@ -3,10 +3,12 @@ main{
     background-image: url("https://th.bing.com/th/id/OIP.GWiOBtxngRMFq0EaNEQ2UgHaFj?pid=ImgDet&rs=1");
     background-position: center;
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size: contain;
     filter: sepia(0.5);
     width: 85%;
+    min-width: 740px;
     border-radius: 15px;
+    
 }
 form{
     
