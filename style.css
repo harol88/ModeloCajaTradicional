@@ -99,7 +99,6 @@ li a{
 main{
     width: 75%;
     margin: 1em auto;
-    background-image:url("https://th.bing.com/th/id/OIP.GWiOBtxngRMFq0EaNEQ2UgHaFj?pid=ImgDet&rs=1");
 }
 
 .main-articles{
@@ -108,6 +107,7 @@ main{
     width: 65%;
     border-radius: 10px;
     padding: 2%;
+    
 
 }
 article{
@@ -145,16 +145,21 @@ article >time{
     color: #023047;
     
 }
+.restaurar{
+    clear: left;
+}
 footer{
-    clear: both;
-    width: 90%;
-    margin: 0 auto;
     
-    background-color: #219EBC;
+    width: 90%;
+    margin: 1.5em auto;
+    padding: 1em;
+    background-color:#6199b5;
+    border-radius: 15px;
+    box-shadow: 0 12px 15px 0 #000;
 }
 .footer{
     display: inline-block;
-    width: 25%;
+    width: 23%;
     margin:0 auto;
     padding: 25px;
 
@@ -166,13 +171,24 @@ footer{
 }
 footer p{
     margin-top: 5px;
-    color: #ec1b1b;
+    
 }
 .footer h2{
     font: bold 1.2em Arial;
+    color: #023047;
 }
 article .title{
     color: #023047;
     text-align: left;
     padding: 0;
+}
+.img-cat{
+    margin: 1em 2em;
+}
+.img-cat:hover{
+    filter: sepia(0.8);
+    scale: 110%;
+}
+iframe{
+    margin: 1em 2.5em;
 }
