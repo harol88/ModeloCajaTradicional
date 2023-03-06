@@ -4,16 +4,19 @@
     <title>Word Cat</title>
     <meta charset="utf-8">
     <meta name="description" content="Este es un documento HTML5, con modelo tradicional">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="HTML, CSS, posicionamineto, float, Tradicional">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logo-cat.png" type="image/icon">
+    <script src="index.js"></script>
 </head>
 <body>
     <header class="headboard-logo" >    
             <h1 class="title">Word Cat</h1>    
     </header>
     <nav class="menu-main">
-            <ul class="list-menu">
+            <img  id="icon-menu" src="https://th.bing.com/th/id/OIP.e9fz_z9SiX49wpkzK9a_pAAAAA?pid=ImgDet&w=150&h=150&c=7&dpr=1,4" alt="icon-menu">
+            <ul class="list-menu" id="list-menu">
             <li class="list-item"><a href="index.html">Home</a></li>
             <li class="list-item"><a href="photos.html">Photos</a>
                 <ul>
@@ -43,7 +46,7 @@
                     </time>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In at adipisci nesciunt tenetur, consectetur nobis cupiditate cumque, vero eaque molestiae rem, provident temporibus tempora error qui alias ut perspiciatis aspernatur.</p>
                     <figure>
-                        <img src="../css/R.png" width="100%" alt="image Cat">
+                        <img class="img-cat" src="../css/R.png" width="0" alt="image Cat">
                     </figure>
                 </article>
                 <article>
@@ -54,7 +57,7 @@
                     </time>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, eligendi? Eos rerum laudantium inventore et tempore eum molestiae, ipsa vitae necessitatibus obcaecati, illum iste voluptatem saepe non ipsum cum libero!</p>
                     <figure>
-                        <img src="../css/R.png" width="100%" alt="Imagen-cat">
+                        <img class="img-cat" src="../css/R.png" width="0" alt="Imagen-cat">
                     </figure>
                 </article>
             </section>
@@ -87,4 +90,5 @@
         
     </footer>
 </body>
+
 </html>

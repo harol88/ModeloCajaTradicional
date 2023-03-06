@@ -43,11 +43,8 @@ textarea:hover{
 }
 
 
-label{
-    
+label{   
     font:bold 1.2em Arial;
-    
-    
 }
 ::placeholder{
     color: #0A3871;
@@ -71,4 +68,16 @@ button:hover{
     color:#fff;
     background-color: #0A3871;
     
+}
+@media all and (max-width: 768px){
+    main{
+        background-image: none;
+        width: 90%;
+        min-width:auto;
+        background-color: rgb(150, 232, 232);
+    }
+    form{
+        width: 60%;
+        padding: 2em 0;
+    }
 }
